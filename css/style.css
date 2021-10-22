@@ -2,30 +2,24 @@
     flex-wrap: wrap;
 }
 
-
-
 .box {
     min-height: 250px;
     background-color: #FFC0CB;
     border: 1px solid black;
-    padding: 5px;
+    padding: 15px;
 }
 span{
-    text-align: center;
-    vertical-align: middle;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .box-nested {
+    display: flex;
     min-height: 250px;
     background-color: #F07F80;
     border: 1px solid white;
-}
-
-/* debug */
-.debug .container {
-    background-color: yellow;
-}
-
-.debug .grigio {
-    background-color: grey;
-    padding: 15px;
+    justify-content: center;
+    align-items: center;
 }
